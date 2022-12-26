@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite2" >
+  <test name="JRISignInPageValidations1" >
+    <classes>
+       <class name="testng.TS_002" />
+    </classes>
+  </test>
+ 
+</suite>
