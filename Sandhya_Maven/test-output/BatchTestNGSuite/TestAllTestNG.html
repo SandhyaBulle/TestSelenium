@@ -1,0 +1,200 @@
+<html>
+<head>
+<title>TestNG:  TestAllTestNG</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestAllTestNG</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>24/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 29 10:17:10 CST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>212 seconds (212474 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testng.TS_002.TC_012()'><b>TC_012</b><br>Test class: testng.TS_002</td>
+<td></td>
+<td>0</td>
+<td>testng.TS_002@1eb6e1c</td></tr>
+<tr>
+<td title='testng.BlazeApp.page2()'><b>page2</b><br>Test class: testng.BlazeApp</td>
+<td></td>
+<td>5</td>
+<td>testng.BlazeApp@a38c7fe</td></tr>
+<tr>
+<td title='testng.TS_001.TC_005()'><b>TC_005</b><br>Test class: testng.TS_001</td>
+<td></td>
+<td>0</td>
+<td>testng.TS_001@6fdbe764</td></tr>
+<tr>
+<td title='testng.TS_001.TC_006()'><b>TC_006</b><br>Test class: testng.TS_001</td>
+<td></td>
+<td>0</td>
+<td>testng.TS_001@6fdbe764</td></tr>
+<tr>
+<td title='testng.ScannerExample.Scanner()'><b>Scanner</b><br>Test class: testng.ScannerExample</td>
+<td></td>
+<td>56</td>
+<td>testng.ScannerExample@70e9c95d</td></tr>
+<tr>
+<td title='testng.BlazeApp.page3()'><b>page3</b><br>Test class: testng.BlazeApp</td>
+<td></td>
+<td>1</td>
+<td>testng.BlazeApp@a38c7fe</td></tr>
+<tr>
+<td title='testng.TS_002.TC_010()'><b>TC_010</b><br>Test class: testng.TS_002</td>
+<td></td>
+<td>6</td>
+<td>testng.TS_002@1eb6e1c</td></tr>
+<tr>
+<td title='testng.TS_002.TC_017()'><b>TC_017</b><br>Test class: testng.TS_002</td>
+<td></td>
+<td>5</td>
+<td>testng.TS_002@1eb6e1c</td></tr>
+<tr>
+<td title='testng.CalenderUI.selectCalender()'><b>selectCalender</b><br>Test class: testng.CalenderUI</td>
+<td></td>
+<td>10</td>
+<td>testng.CalenderUI@29215f06</td></tr>
+<tr>
+<td title='testng.TS_002.TC_013()'><b>TC_013</b><br>Test class: testng.TS_002</td>
+<td></td>
+<td>6</td>
+<td>testng.TS_002@1eb6e1c</td></tr>
+<tr>
+<td title='testng.practiceHtml.hyperlinks()'><b>hyperlinks</b><br>Test class: testng.practiceHtml</td>
+<td></td>
+<td>5</td>
+<td>testng.practiceHtml@4d5650ae</td></tr>
+<tr>
+<td title='testng.practiceHtml.dropDown()'><b>dropDown</b><br>Test class: testng.practiceHtml</td>
+<td></td>
+<td>5</td>
+<td>testng.practiceHtml@4d5650ae</td></tr>
+<tr>
+<td title='testng.TS_001.TC_007()'><b>TC_007</b><br>Test class: testng.TS_001</td>
+<td></td>
+<td>0</td>
+<td>testng.TS_001@6fdbe764</td></tr>
+<tr>
+<td title='testng.practiceHtml.editBox()'><b>editBox</b><br>Test class: testng.practiceHtml</td>
+<td></td>
+<td>5</td>
+<td>testng.practiceHtml@4d5650ae</td></tr>
+<tr>
+<td title='testng.practiceHtml.checkBox()'><b>checkBox</b><br>Test class: testng.practiceHtml</td>
+<td></td>
+<td>48</td>
+<td>testng.practiceHtml@4d5650ae</td></tr>
+<tr>
+<td title='testng.BlazeApp.homePage()'><b>homePage</b><br>Test class: testng.BlazeApp</td>
+<td></td>
+<td>7</td>
+<td>testng.BlazeApp@a38c7fe</td></tr>
+<tr>
+<td title='testng.FacebookLogin.f()'><b>f</b><br>Test class: testng.FacebookLogin</td>
+<td></td>
+<td>4</td>
+<td>testng.FacebookLogin@51dbd6e4</td></tr>
+<tr>
+<td title='testng.TS_002.TC_016()'><b>TC_016</b><br>Test class: testng.TS_002</td>
+<td></td>
+<td>7</td>
+<td>testng.TS_002@1eb6e1c</td></tr>
+<tr>
+<td title='testng.TS_001.TC_008()'><b>TC_008</b><br>Test class: testng.TS_001</td>
+<td></td>
+<td>7</td>
+<td>testng.TS_001@6fdbe764</td></tr>
+<tr>
+<td title='testng.TS_002.TC_011()'><b>TC_011</b><br>Test class: testng.TS_002</td>
+<td></td>
+<td>2</td>
+<td>testng.TS_002@1eb6e1c</td></tr>
+<tr>
+<td title='testng.practiceHtml.radioButton()'><b>radioButton</b><br>Test class: testng.practiceHtml</td>
+<td></td>
+<td>5</td>
+<td>testng.practiceHtml@4d5650ae</td></tr>
+<tr>
+<td title='testng.TS_001.TC_004()'><b>TC_004</b><br>Test class: testng.TS_001</td>
+<td></td>
+<td>7</td>
+<td>testng.TS_001@6fdbe764</td></tr>
+<tr>
+<td title='testng.BlazeApp.page4()'><b>page4</b><br>Test class: testng.BlazeApp</td>
+<td></td>
+<td>5</td>
+<td>testng.BlazeApp@a38c7fe</td></tr>
+<tr>
+<td title='testng.TS_001.TC_009()'><b>TC_009</b><br>Test class: testng.TS_001</td>
+<td></td>
+<td>9</td>
+<td>testng.TS_001@6fdbe764</td></tr>
+</table><p>
+</body>
+</html>
